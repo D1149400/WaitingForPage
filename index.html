@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>YOUTUBE Page Loading</title>
+        <link rel="icon" href="imgs/YouTube-LOGO.ico" >
 
-</body>
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt+Prism">
+        <link rel="stylesheet" href="styles.css">
+
+        <style>
+            body{
+                background-color: black;
+                <!--
+                background-image: url('imgs/YoutubeNoWiFi.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                -->
+            }
+            .All{
+                font-family: "Tilt Prism", sans-serif;
+                <!--
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings:
+                        "XROT" 0,
+                        "YROT" 0;
+                -->
+            }
+            .TopLeft{
+                font-size:23px;
+                color: white;
+            }
+            .Main{
+                text-align:center;
+                font-size:100px;
+                color: white;
+            }
+            .Bottom{
+                text-align:center;
+                font-size:50px;
+                color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="All">
+            <a href="https://www.youtube.com/">
+               <img title="WebLinkANDLogoImg" src="imgs/YouTube-LOGO.png" alt="YouTube-LOGO.png" style="float:left;width:50px;height:30px;">
+            </a>
+
+            <div class="TopLeft">
+                <small title="WebName"><b>YOUTUBE</small>
+            </div>
+
+            <br><br>
+
+            <div class="Main">
+                <p title="MainOfTitle">LOADING  QUICKLY</p>
+            </div>
+
+            <div class="Bottom">
+                <p title="WaitingTime">Please Waiting For Seconds</p>
+            </div>
+        </div>
+    </body>
 </html>
